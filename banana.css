@@ -1,3 +1,14 @@
+:root{
+    --primary-color: #10B981;
+    --dark-gray: #6B7280;
+    --off-white: #DDD6FE;
+}
+
+body{
+    margin: 0px;
+    /* background-color: var(--off-white); */
+}
+
 textarea{
     height: 10vh;
     width:80%;
