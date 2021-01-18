@@ -5,17 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Banana Speak</title>
     <link href="banana.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet">
 </head>
 <body>
-        
-    <textarea id="txt-input" placeholder="Hey! enter your text here...."></textarea>
+    
+    <div class="header container-center">
+        <h1>Minion Translator</h1>
+    </div>
 
-    <button id="btn-translate">Translate</button>
+    <div class="container-center">
+        <textarea id="txt-input" placeholder="Hey! enter your text here...."></textarea>
+        <br>
+        <button id="btn-translate" class="btn">Translate</button>
+        <br><br>
+        <div class="content">Output will appear here 👇</div>
+        <br>
+        <div id="output"></div>
+    </div>
 
-    <div>Output will appear here 👇</div>
-
-    <div id="output"></div>
-
+    <footer class="footer container-center">
+        <div class="footer-header">Developed by - Ashish</div>
+    </footer>
+    
     <script src="app.js" type="text/javascript"></script>
 </body>
 </html>
